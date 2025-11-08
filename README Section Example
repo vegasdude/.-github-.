@@ -1,0 +1,3 @@
+## 🤖 Dependency Management
+This project uses [Renovate Bot](https://github.com/renovatebot/renovate) to automatically update dependencies.
+Renovate creates pull requests when new versions are available and can auto-merge safe updates.

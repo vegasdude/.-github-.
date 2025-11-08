@@ -1,0 +1,12 @@
+{
+  "extends": ["config:base"],
+  "labels": ["dependencies"],
+  "automerge": true,
+  "schedule": ["before 5am on monday"],
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"  # or npm, maven, etc.
+    directory: "/"             # location of your package files
+    schedule:
+      interval: "weekly"
